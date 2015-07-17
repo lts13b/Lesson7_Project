@@ -1,9 +1,9 @@
-*****************************************************
-Project Name:  Recipe Display Application
-Author: 
-Date:   
+************************************************************************
+Project Name:  Recipe Display Application  --  Project Quiz
+Author: Lucas Schafer
+Date:   July 17, 2015
 Participation Assignment (25 points)
-*****************************************************
+************************************************************************
 
 Instructions:  
 Answer the following questions for Lesson 7 Assignment
@@ -12,7 +12,7 @@ Answer the following questions for Lesson 7 Assignment
 Question #1:  (5 points)
 ++++++++++++
 Why should you ensure that the script element that links to the jQuery library file comes before any other script element for a .js file that includes jQuery code?
-
+Javascript will not work properly if you don't use the jQuery file first. This is because the jQuery file includes many of the things that allow javascript to work and it contains the necessary information that is difficult to write. The actual .js file contains the javascript functions specific for your document.
 
 
 
@@ -20,6 +20,8 @@ Why should you ensure that the script element that links to the jQuery library f
 Question #2:  (5 points)
 ++++++++++++
 Why should you avoid including jQuery in a project if you don't need it?
+It is really complicated and if you mess one little thing up you can severely cripple your website.
+
 
 
 
@@ -30,8 +32,7 @@ Why should you avoid including jQuery in a project if you don't need it?
 Question #3:  (5 points)
 ++++++++++++
 How does every jQuery statement start?
-
-
+$
 
 
 
@@ -39,3 +40,9 @@ How does every jQuery statement start?
 Question #4: (10 points)
 ++++++++++++
 What is a Content Delivery Network (CDN)?  List and explain at least FOUR advantages in using a CDN.
+A CDN is a group of servers in multiple locations. The main objective of them is high performance and high availability.
+Four advantages are:
+1. Always available
+2. Decreased server load
+3. Increase the number of users
+4. Faster content delivery
